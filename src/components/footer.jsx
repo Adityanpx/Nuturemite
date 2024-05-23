@@ -17,7 +17,7 @@ export function Footer() {
             </Link>
             <Link
               className="flex items-center gap-2 hover:text-gray-900 dark:hover:text-gray-200"
-              href="#">
+              href="/contact">
               <PhoneIcon className="h-5 w-5" />
               Contact
             </Link>

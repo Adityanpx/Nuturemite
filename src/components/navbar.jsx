@@ -44,7 +44,7 @@ export function Navbar() {
             <Link className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="/About">
               About Us
             </Link>
-            <Link className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+            <Link className="text-xs font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="/contact">
               Contact Us
             </Link>
             <Button size="icon" variant="ghost">
@@ -58,7 +58,7 @@ export function Navbar() {
           </Button>
         </div>
         <nav className="hidden  md:flex items-center justify-center mb-3 gap-5  text-bold ">
-  <Link className="text-sm  font-medium text-white bg-blue-500 hover:text-white p-2 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+  <Link className="text-sm  font-medium text-white bg-blue-500 hover:text-white p-2 dark:text-gray-400 dark:hover:text-gray-50" href="/">
     Home
   </Link>
   <Link className="text-sm font-medium text-blue-600 hover:bg-blue-500 hover:text-white p-2 dark:text-gray-400 dark:hover:text-gray-50" href="#">
@@ -79,13 +79,13 @@ export function Navbar() {
   <Link className="text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white p-2 dark:text-gray-400 dark:hover:text-gray-50" href="#">
     Register
   </Link>
-  <div className="flex text-lg gap-2   ">
-    <FaFacebook className="rounded-lg  hover:bg-blue-400 hover:text-white"/>
-    <FaTwitter className="rounded-lg hover:bg-blue-400 hover:text-white"/>
-    <FaYoutube className="rounded-lg  hover:bg-blue-400 hover:text-white"/>
-    <FaInstagram className="rounded-lg  hover:bg-blue-400 hover:text-white"/>
-    <FaLinkedin className="rounded-lg  hover:bg-blue-400 hover:text-white"/>
-  </div>
+  <div className="flex text-2xl gap-4">
+      <FaFacebook className="rounded-full p-1 transition duration-300 ease-in-out transform hover:bg-blue-500 hover:text-white hover:scale-125" />
+      <FaTwitter className="rounded-full p-1 transition duration-300 ease-in-out transform hover:bg-blue-400 hover:text-white hover:scale-125" />
+      <FaYoutube className="rounded-full p-1 transition duration-300 ease-in-out transform hover:bg-red-500 hover:text-white hover:scale-125" />
+      <FaInstagram className="rounded-full p-1 transition duration-300 ease-in-out transform hover:bg-pink-500 hover:text-white hover:scale-125" />
+      <FaLinkedin className="rounded-full p-1 transition duration-300 ease-in-out transform hover:bg-blue-700 hover:text-white hover:scale-125" />
+    </div>
 </nav>
 
       </header>
